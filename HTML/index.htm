@@ -53,18 +53,114 @@
         <div class="main_content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <img src="/assets/backward_icon.png" alt="">
-                    <img src="/assets/forward_icon.png" alt="">
+                    <img  src="/assets/backward_icon.png" alt="">
+                    <img  class="none" src="/assets/forward_icon.png" alt="">
                 </div>
                 <div class="sticky-nav-options">
-                    <button class="badge badge-n">Explore Premium</button>
-                    <button class="badge badge-n"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <button class="badge badge-n none">Explore Premium</button>
+                    <button class="badge badge-n dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
                     <i id="b1" class="fa-regular fa-user"></i>
                 </div>
             </div>
-            <div class="cards"></div>
+
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="/assets/card1img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="/assets/card2img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Mahiye Jinna Sonhna</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card3img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Mere Pas Tum Ho</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card4img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Leo-Background-Track</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card2img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Mahiye Jinna Sonhna</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card1img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="/assets/card5img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top Songs - Global</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card6img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top Songs - India</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card1img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card4img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Leo-Background-Track</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/card3img.jpeg" class="card-img" alt="card1">
+                        <h4 class="card-title">Top 50 - Global</h4>
+                        <p class="card-info">Your daily updates of mostly played tracks</p>
+                    </div>
         </div>
-        <div class="music_player">music_player</div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <img src="/assets/card2img.jpeg" alt="">
+                <p class="title">Daylight</p>
+                <p class="singer">Amit triwedi</p>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-expand"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img class="player-control-icon" src="/assets/player_icon1.png" alt="">
+                    <img class="player-control-icon" src="/assets/player_icon2.png" alt="">
+                    <img class="player-control-icon play-btn" src="/assets/player_icon3.png" alt="">
+                    <img class="player-control-icon" src="/assets/player_icon4.png" alt="">
+                    <img class="player-control-icon" src="/assets/player_icon5.png" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" class="progress-bar" min="0" max="100" step="1">
+                    <span class="total-time">3:38</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-compact-disc icon"></i>
+                <i class="fa-solid fa-microphone icon"></i>
+                <i class="fa-solid fa-layer-group icon"></i>
+                <i class="fa-solid fa-headphones-simple icon"></i>
+                <i class="fa-solid fa-volume-high icon" style="opacity: 1;"></i>
+                <input type="range" class="sound" max="100" min="0" step="10" set="100" style="opacity: 1;">
+            </div>
+        </div>
     </div>
 </body>
 </html>
